@@ -1,0 +1,21 @@
+RewriteEngine ON
+RewriteRule ^home$ ?ctrl=home [L]
+RewriteRule ^quanlydanhmuc.html$ ?ctrl=quanlydanhmuc [L]
+RewriteRule ^quanlysanpham.html$ ?ctrl=quanlysanpham [L]
+RewriteRule ^quanlyhinhanh.html$ ?ctrl=quanlyhinhanh [L]
+RewriteRule ^quanlyslide.html$ ?ctrl=quanlyslide [L]
+RewriteRule ^donhang.html$ ?ctrl=donhang [L]
+RewriteRule ^quanlymember.html$ ?ctrl=quanlymember [L]
+RewriteRule ^logoutadmin.html$ ?ctrl=logoutadmin [L]
+RewriteRule ^contact.html$ ?ctrl=contact [L]
+
+
+
+
+
+
+
+
+
+
+

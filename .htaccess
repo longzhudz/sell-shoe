@@ -1,0 +1,24 @@
+RewriteEngine ON
+RewriteRule ^login.html$ ?ctrl=login [L]
+RewriteRule ^aboutus.html$ ?ctrl=aboutus [L]
+RewriteRule ^home.html$ index.php [L]
+RewriteRule ^cart.html$ ?ctrl=cart [L]
+RewriteRule ^pay.html$ ?ctrl=pay [L]
+RewriteRule ^contact.html$ ?ctrl=contact [L]
+RewriteRule ^register.html$ ?ctrl=register [L]
+RewriteRule ^logout.html$ ?ctrl=logout [L]
+RewriteRule ^forgetpass.html$ ?ctrl=forgetpass [L]
+RewriteRule ^changepass/(.*)$ ?ctrl=changepass&token=$1  [L]
+RewriteRule ^passchangclient.html$ ?ctrl=passchangclient [L]
+
+RewriteRule ^products/(.*).html$ ?ctrl=products&categories=$1 [L]
+
+
+RewriteRule ^details/(.*).html$ ?ctrl=details&slugproducts=$1  [L]
+
+
+
+
+
+
+
