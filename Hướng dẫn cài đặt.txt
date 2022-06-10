@@ -1,0 +1,4 @@
+- Cài xampp với cổng 8080 để được tối ưu tất cả các chức năng
+- Có 2 file: "dbconfig" và "database" ở folder modules. 
+ + Vào file dbconfig trên đổi database = "tên file .sql mà bạn đặt ở "phpmyadmin" "
+ + Vào file database trên đổi dbname = "tên file .sql mà bạn đặt ở "phpmyadmin" "
